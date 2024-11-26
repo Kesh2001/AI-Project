@@ -1,0 +1,121 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 7836,
+    "features": 3
+  },
+  "sentiment": {
+    "document": {
+      "score": 0.747605,
+      "mixed": "1",
+      "label": "positive"
+    }
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "essential temporary workers",
+      "sentiment": {
+        "score": 0.939157,
+        "label": "positive"
+      },
+      "relevance": 0.685137,
+      "count": 3
+    },
+    {
+      "text": "international graduates - Canada.ca Skip",
+      "sentiment": {
+        "score": 0,
+        "label": "neutral"
+      },
+      "relevance": 0.635151,
+      "count": 1
+    },
+    {
+      "text": "permanent residency",
+      "sentiment": {
+        "score": 0.939157,
+        "label": "positive"
+      },
+      "relevance": 0.629459,
+      "count": 3
+    },
+    {
+      "text": "infrastructure Canada",
+      "sentiment": {
+        "score": 0.961838,
+        "label": "positive"
+      },
+      "relevance": 0.62074,
+      "count": 2
+    },
+    {
+      "text": "Citizenship Canada Newsroom New pathway",
+      "sentiment": {
+        "score": 0.930538,
+        "label": "positive"
+      },
+      "relevance": 0.620424,
+      "count": 1
+    },
+    {
+      "text": "Citizenship Canada News release Today",
+      "sentiment": {
+        "score": 0.930538,
+        "label": "positive"
+      },
+      "relevance": 0.602993,
+      "count": 1
+    },
+    {
+      "text": "special public policies",
+      "sentiment": {
+        "score": 0.824818,
+        "label": "positive"
+      },
+      "relevance": 0.597822,
+      "count": 2
+    },
+    {
+      "text": "workplace Immigration",
+      "sentiment": {
+        "score": 0.930538,
+        "label": "positive"
+      },
+      "relevance": 0.577799,
+      "count": 1
+    },
+    {
+      "text": "New pathway",
+      "sentiment": {
+        "score": 0.884202,
+        "label": "positive"
+      },
+      "relevance": 0.563757,
+      "count": 1
+    },
+    {
+      "text": "National security",
+      "sentiment": {
+        "score": 0.961838,
+        "label": "positive"
+      },
+      "relevance": 0.563451,
+      "count": 2
+    }
+  ],
+  "categories": [
+    {
+      "score": 0.910965,
+      "label": "/business and finance/economy"
+    },
+    {
+      "score": 0.878356,
+      "label": "/business and finance/economy/financial reform"
+    },
+    {
+      "score": 0.811068,
+      "label": "/education/primary education"
+    }
+  ]
+}
