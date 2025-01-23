@@ -1,0 +1,7 @@
+idML,ref_date,geo,noc_code,noc_desc_actual,job_char,total_vacancies,predicted_vacancies,noc_desc_predicted,sentiment_score,predicted_total_vacancies,percentage_error
+46603599,2023-01-01,Quebec,3,Health occupations,"Type of work, all types",26215.0,,Health occupations,0.0,35074.81215290924,33.796727647946746
+48137887,2023-04-01,Quebec,3,Health occupations,"Type of work, all types",28670.0,,Health occupations,0.0,38133.34109520444,33.007816865031195
+49672175,2023-07-01,Quebec,3,Health occupations,"Type of work, all types",30440.0,,Health occupations,0.0,45223.35002117112,48.565538834333516
+51206463,2023-10-01,Quebec,3,Health occupations,"Type of work, all types",28945.0,,Health occupations,0.0,43398.876329522565,49.9356584194941
+52740751,2024-01-01,Quebec,3,Health occupations,"Type of work, all types",27325.0,,Health occupations,0.568935,47864.707327675234,75.16818784144643
+54275039,2024-04-01,Quebec,3,Health occupations,"Type of work, all types",24205.0,,Health occupations,0.568935,50014.62511055592,100.0

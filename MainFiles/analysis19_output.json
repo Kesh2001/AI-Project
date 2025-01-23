@@ -1,0 +1,124 @@
+{
+  "usage": {
+    "text_units": 5,
+    "text_characters": 50000,
+    "features": 3
+  },
+  "sentiment": {
+    "document": {
+      "score": 0.770493,
+      "mixed": "1",
+      "label": "positive"
+    }
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "publication of IRCC",
+      "sentiment": {
+        "score": 0,
+        "label": "neutral"
+      },
+      "relevance": 0.60074,
+      "count": 1
+    },
+    {
+      "text": "Departmental Plans",
+      "sentiment": {
+        "score": 0,
+        "label": "neutral"
+      },
+      "relevance": 0.57965,
+      "count": 1
+    },
+    {
+      "text": "Departmental Plan support",
+      "sentiment": {
+        "score": -0.549932,
+        "label": "negative"
+      },
+      "relevance": 0.565943,
+      "count": 1
+    },
+    {
+      "text": "Internal Services",
+      "sentiment": {
+        "score": 0,
+        "label": "neutral"
+      },
+      "relevance": 0.553386,
+      "count": 2
+    },
+    {
+      "text": "work force",
+      "sentiment": {
+        "score": 0.871914,
+        "label": "positive"
+      },
+      "relevance": 0.550894,
+      "count": 1
+    },
+    {
+      "text": "Program Inventory",
+      "sentiment": {
+        "score": 0.800431,
+        "label": "positive"
+      },
+      "relevance": 0.550103,
+      "count": 1
+    },
+    {
+      "text": "increased number of asylum claimants",
+      "sentiment": {
+        "score": -0.549932,
+        "label": "negative"
+      },
+      "relevance": 0.549496,
+      "count": 1
+    },
+    {
+      "text": "economic growth",
+      "sentiment": {
+        "score": 0.845057,
+        "label": "positive"
+      },
+      "relevance": 0.548273,
+      "count": 4
+    },
+    {
+      "text": "Citizenship Canada Corporate information Publications",
+      "sentiment": {
+        "score": 0,
+        "label": "neutral"
+      },
+      "relevance": 0.547773,
+      "count": 1
+    },
+    {
+      "text": "international graduates",
+      "sentiment": {
+        "score": 0.95444,
+        "label": "positive"
+      },
+      "relevance": 0.544545,
+      "count": 2
+    }
+  ],
+  "categories": [
+    {
+      "score": 0.614819,
+      "label": "/business and finance/economy/financial reform"
+    },
+    {
+      "score": 0.595258,
+      "label": "/business and finance/industries/information services industry"
+    },
+    {
+      "score": 0.594863,
+      "label": "/business and finance/industries/financial industry"
+    }
+  ],
+  "warnings": [
+    "Text content exceeds 50000 character limit. Only first 50000 characters processed..."
+  ]
+}

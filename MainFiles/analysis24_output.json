@@ -1,0 +1,122 @@
+{
+  "usage": {
+    "text_units": 3,
+    "text_characters": 23450,
+    "features": 3
+  },
+  "sentiment": {
+    "document": {
+      "score": 0.64659,
+      "mixed": "1",
+      "label": "positive"
+    }
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "International Students - Canada.ca Skip",
+      "sentiment": {
+        "score": 0,
+        "label": "neutral"
+      },
+      "relevance": 0.732361,
+      "count": 1
+    },
+    {
+      "text": "objectives of the international student program",
+      "sentiment": {
+        "score": 0.863421,
+        "label": "positive"
+      },
+      "relevance": 0.663226,
+      "count": 1
+    },
+    {
+      "text": "temporary work",
+      "sentiment": {
+        "score": 0.568935,
+        "label": "positive"
+      },
+      "relevance": 0.624565,
+      "count": 1
+    },
+    {
+      "text": "IRCC Deputy Minister Transition Binder",
+      "sentiment": {
+        "score": 0.980817,
+        "label": "positive"
+      },
+      "relevance": 0.612719,
+      "count": 2
+    },
+    {
+      "text": "top international students",
+      "sentiment": {
+        "score": 0.837716,
+        "label": "positive"
+      },
+      "relevance": 0.576332,
+      "count": 2
+    },
+    {
+      "text": "public policy",
+      "sentiment": {
+        "score": 0.658066,
+        "label": "positive"
+      },
+      "relevance": 0.561876,
+      "count": 2
+    },
+    {
+      "text": "Work Phase",
+      "sentiment": {
+        "score": 0,
+        "label": "neutral"
+      },
+      "relevance": 0.555998,
+      "count": 1
+    },
+    {
+      "text": "completion of their studies",
+      "sentiment": {
+        "score": 0.717021,
+        "label": "positive"
+      },
+      "relevance": 0.555855,
+      "count": 1
+    },
+    {
+      "text": "international students",
+      "sentiment": {
+        "score": 0.674898,
+        "mixed": "1",
+        "label": "positive"
+      },
+      "relevance": 0.552319,
+      "count": 22
+    },
+    {
+      "text": "study permits",
+      "sentiment": {
+        "score": 0.766498,
+        "label": "positive"
+      },
+      "relevance": 0.550894,
+      "count": 7
+    }
+  ],
+  "categories": [
+    {
+      "score": 0.971712,
+      "label": "/education"
+    },
+    {
+      "score": 0.920868,
+      "label": "/education/college education"
+    },
+    {
+      "score": 0.91792,
+      "label": "/education/primary education"
+    }
+  ]
+}
