@@ -1,0 +1,903 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1112.0850                               -->
+<workbook original-version='18.1' source-build='2024.3.1 (20243.24.1112.0850)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Best_Merged_Data_Final (Best_Merged_Data_Final)' inline='true' name='federated.1fmetnw0yxhy3016gyeza0t6rbc6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Best_Merged_Data_Final' name='excel-direct.01ic1690kilars17b96hu0koxrgj'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/Study Material/UWin/Sem 2/AI/Project/Code/Github/AI-Project/MainFiles/Best_Merged_Data_Final.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.01ic1690kilars17b96hu0koxrgj' name='Best_Merged_Data_Final' table='[Best_Merged_Data_Final$]' type='table'>
+          <columns gridOrigin='A1:H9777:no:A1:H9777:0' header='yes' outcome='2'>
+            <column datatype='date' name='ref_date' ordinal='0' />
+            <column datatype='string' name='geo' ordinal='1' />
+            <column datatype='integer' name='noc_code' ordinal='2' />
+            <column datatype='string' name='noc_desc' ordinal='3' />
+            <column datatype='string' name='job_char' ordinal='4' />
+            <column datatype='integer' name='total_vacancies' ordinal='5' />
+            <column datatype='real' name='sentiment_score' ordinal='6' />
+            <column datatype='real' name='predicted_total_vacancies' ordinal='7' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>ref_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[ref_date]</local-name>
+            <parent-name>[Best_Merged_Data_Final]</parent-name>
+            <remote-alias>ref_date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geo</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[geo]</local-name>
+            <parent-name>[Best_Merged_Data_Final]</parent-name>
+            <remote-alias>geo</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>noc_code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[noc_code]</local-name>
+            <parent-name>[Best_Merged_Data_Final]</parent-name>
+            <remote-alias>noc_code</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>noc_desc</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[noc_desc]</local-name>
+            <parent-name>[Best_Merged_Data_Final]</parent-name>
+            <remote-alias>noc_desc</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>job_char</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[job_char]</local-name>
+            <parent-name>[Best_Merged_Data_Final]</parent-name>
+            <remote-alias>job_char</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_vacancies</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_vacancies]</local-name>
+            <parent-name>[Best_Merged_Data_Final]</parent-name>
+            <remote-alias>total_vacancies</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sentiment_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sentiment_score]</local-name>
+            <parent-name>[Best_Merged_Data_Final]</parent-name>
+            <remote-alias>sentiment_score</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>predicted_total_vacancies</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[predicted_total_vacancies]</local-name>
+            <parent-name>[Best_Merged_Data_Final]</parent-name>
+            <remote-alias>predicted_total_vacancies</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Best_Merged_Data_Final]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H9777:no:A1:H9777:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Best_Merged_Data_Final' datatype='table' name='[__tableau_internal_object_id__].[Best!Merged!Data!Final_B7B22CB6D1B547529ADF1F1EA518F2AB]' role='measure' type='quantitative' />
+      <column caption='Geo' datatype='string' name='[geo]' role='dimension' type='nominal' />
+      <column caption='Job Char' datatype='string' name='[job_char]' role='dimension' type='nominal' />
+      <column caption='Noc Code' datatype='integer' name='[noc_code]' role='dimension' type='ordinal' />
+      <column caption='Noc Desc' datatype='string' name='[noc_desc]' role='dimension' type='nominal' />
+      <column caption='Predicted Total Vacancies' datatype='real' name='[predicted_total_vacancies]' role='dimension' type='ordinal' />
+      <column caption='Ref Date' datatype='date' name='[ref_date]' role='dimension' type='ordinal' />
+      <column caption='Sentiment Score' datatype='real' name='[sentiment_score]' role='measure' type='quantitative' />
+      <column caption='Total Vacancies' datatype='integer' name='[total_vacancies]' role='measure' type='quantitative' />
+      <column-instance column='[noc_desc]' derivation='None' name='[none:noc_desc:nk]' pivot='key' type='nominal' />
+      <column-instance column='[predicted_total_vacancies]' derivation='Avg' name='[pcto:avg:predicted_total_vacancies:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[predicted_total_vacancies]' derivation='Sum' name='[pcto:sum:predicted_total_vacancies:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Rows' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[predicted_total_vacancies]' derivation='Sum' name='[sum:predicted_total_vacancies:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[sentiment_score]' derivation='Sum' name='[sum:sentiment_score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[total_vacancies]' derivation='Sum' name='[sum:total_vacancies:qk]' pivot='key' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[pcto:avg:predicted_total_vacancies:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[pcto:sum:predicted_total_vacancies:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[sum:predicted_total_vacancies:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[sum:sentiment_score:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[sum:total_vacancies:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:noc_desc:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Business, finance and administration occupations&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Natural resources, agriculture and related production occupations&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Natural and applied sciences and related occupations&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Total, all occupations&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Sales and service occupations&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Occupations in education, law and social, community and government services&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Trades, transport and equipment operators and related occupations&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Legislative and senior management occupations&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Occupations in art, culture, recreation and sport&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Health occupations&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Occupations in manufacturing and utilities&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Best_Merged_Data_Final' id='Best!Merged!Data!Final_B7B22CB6D1B547529ADF1F1EA518F2AB'>
+            <properties context=''>
+              <relation connection='excel-direct.01ic1690kilars17b96hu0koxrgj' name='Best_Merged_Data_Final' table='[Best_Merged_Data_Final$]' type='table'>
+                <columns gridOrigin='A1:H9777:no:A1:H9777:0' header='yes' outcome='2'>
+                  <column datatype='date' name='ref_date' ordinal='0' />
+                  <column datatype='string' name='geo' ordinal='1' />
+                  <column datatype='integer' name='noc_code' ordinal='2' />
+                  <column datatype='string' name='noc_desc' ordinal='3' />
+                  <column datatype='string' name='job_char' ordinal='4' />
+                  <column datatype='integer' name='total_vacancies' ordinal='5' />
+                  <column datatype='real' name='sentiment_score' ordinal='6' />
+                  <column datatype='real' name='predicted_total_vacancies' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Predictions with Policy Data'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#4e79a7'>Predictions</run>
+            <run bold='true'>Æ </run>
+            <run bold='true' fontcolor='#59a14f'>with Policy Data</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Best_Merged_Data_Final (Best_Merged_Data_Final)' name='federated.1fmetnw0yxhy3016gyeza0t6rbc6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1fmetnw0yxhy3016gyeza0t6rbc6'>
+            <column caption='Geo' datatype='string' name='[geo]' role='dimension' type='nominal' />
+            <column caption='Job Char' datatype='string' name='[job_char]' role='dimension' type='nominal' />
+            <column caption='Noc Code' datatype='integer' name='[noc_code]' role='dimension' type='ordinal' />
+            <column-instance column='[geo]' derivation='None' name='[none:geo:nk]' pivot='key' type='nominal' />
+            <column-instance column='[job_char]' derivation='None' name='[none:job_char:nk]' pivot='key' type='nominal' />
+            <column-instance column='[noc_code]' derivation='None' name='[none:noc_code:ok]' pivot='key' type='ordinal' />
+            <column caption='Predicted Total Vacancies' datatype='real' name='[predicted_total_vacancies]' role='dimension' type='ordinal' />
+            <column caption='Ref Date' datatype='date' name='[ref_date]' role='dimension' type='ordinal' />
+            <column caption='Sentiment Score' datatype='real' name='[sentiment_score]' role='measure' type='quantitative' />
+            <column-instance column='[predicted_total_vacancies]' derivation='Sum' name='[sum:predicted_total_vacancies:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[sentiment_score]' derivation='Sum' name='[sum:sentiment_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[total_vacancies]' derivation='Sum' name='[sum:total_vacancies:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Vacancies' datatype='integer' name='[total_vacancies]' role='measure' type='quantitative' />
+            <column-instance column='[ref_date]' derivation='Quarter-Trunc' name='[tqr:ref_date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ref_date]' derivation='Year' name='[yr:ref_date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:geo:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:geo:nk]' member='&quot;Alberta&quot;' />
+              <groupfilter function='member' level='[none:geo:nk]' member='&quot;British Columbia&quot;' />
+              <groupfilter function='member' level='[none:geo:nk]' member='&quot;Manitoba&quot;' />
+              <groupfilter function='member' level='[none:geo:nk]' member='&quot;New Brunswick&quot;' />
+              <groupfilter function='member' level='[none:geo:nk]' member='&quot;Newfoundland and Labrador&quot;' />
+              <groupfilter function='member' level='[none:geo:nk]' member='&quot;Northwest Territories&quot;' />
+              <groupfilter function='member' level='[none:geo:nk]' member='&quot;Nova Scotia&quot;' />
+              <groupfilter function='member' level='[none:geo:nk]' member='&quot;Nunavut&quot;' />
+              <groupfilter function='member' level='[none:geo:nk]' member='&quot;Ontario&quot;' />
+              <groupfilter function='member' level='[none:geo:nk]' member='&quot;Prince Edward Island&quot;' />
+              <groupfilter function='member' level='[none:geo:nk]' member='&quot;Quebec&quot;' />
+              <groupfilter function='member' level='[none:geo:nk]' member='&quot;Saskatchewan&quot;' />
+              <groupfilter function='member' level='[none:geo:nk]' member='&quot;Yukon&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:job_char:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:job_char:nk]' member='&quot;Full-time&quot;' />
+              <groupfilter function='member' level='[none:job_char:nk]' member='&quot;Part-time&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:noc_code:ok]'>
+            <groupfilter function='member' level='[none:noc_code:ok]' member='101' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[sum:sentiment_score:qk]' included-values='in-range'>
+            <min>0.0</min>
+            <max>275.77945400000027</max>
+          </filter>
+          <filter class='categorical' column='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[yr:ref_date:ok]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:ref_date:ok]' member='2019' />
+              <groupfilter function='member' level='[yr:ref_date:ok]' member='2020' />
+              <groupfilter function='member' level='[yr:ref_date:ok]' member='2021' />
+              <groupfilter function='member' level='[yr:ref_date:ok]' member='2022' />
+              <groupfilter function='member' level='[yr:ref_date:ok]' member='2023' />
+              <groupfilter function='member' level='[yr:ref_date:ok]' member='2024' />
+              <groupfilter function='member' level='[yr:ref_date:ok]' member='2025' />
+              <groupfilter function='member' level='[yr:ref_date:ok]' member='2026' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:geo:nk]</column>
+            <column>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:job_char:nk]</column>
+            <column>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:noc_code:ok]</column>
+            <column>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[yr:ref_date:ok]</column>
+            <column>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[sum:sentiment_score:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[sum:total_vacancies:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='10' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[sum:sentiment_score:qk]' num-steps='5' palette='blue_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[sum:sentiment_score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-markers-mode' value='auto' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[sum:predicted_total_vacancies:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[sum:sentiment_score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-markers-mode' value='auto' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[sum:total_vacancies:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[sum:sentiment_score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-markers-mode' value='auto' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.1fmetnw0yxhy3016gyeza0t6rbc6].[sum:predicted_total_vacancies:qk] + [federated.1fmetnw0yxhy3016gyeza0t6rbc6].[sum:total_vacancies:qk])</rows>
+        <cols>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[tqr:ref_date:qk]</cols>
+      </table>
+      <simple-id uuid='{E2A556FD-2E3A-441F-A079-645C6C2EDA35}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#4e79a7'>Predicted Distribution</run>
+            <run bold='true'>Æ </run>
+            <run bold='true' fontcolor='#59a14f'>by Sector</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Best_Merged_Data_Final (Best_Merged_Data_Final)' name='federated.1fmetnw0yxhy3016gyeza0t6rbc6' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1fmetnw0yxhy3016gyeza0t6rbc6'>
+            <column caption='Geo' datatype='string' name='[geo]' role='dimension' type='nominal' />
+            <column caption='Job Char' datatype='string' name='[job_char]' role='dimension' type='nominal' />
+            <column caption='Noc Code' datatype='integer' name='[noc_code]' role='dimension' type='ordinal' />
+            <column caption='Noc Desc' datatype='string' name='[noc_desc]' role='dimension' type='nominal' />
+            <column-instance column='[geo]' derivation='None' name='[none:geo:nk]' pivot='key' type='nominal' />
+            <column-instance column='[job_char]' derivation='None' name='[none:job_char:nk]' pivot='key' type='nominal' />
+            <column-instance column='[noc_code]' derivation='None' name='[none:noc_code:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[noc_desc]' derivation='None' name='[none:noc_desc:nk]' pivot='key' type='nominal' />
+            <column-instance column='[predicted_total_vacancies]' derivation='Sum' name='[pcto:sum:predicted_total_vacancies:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column caption='Predicted Total Vacancies' datatype='real' name='[predicted_total_vacancies]' role='dimension' type='ordinal' />
+            <column caption='Ref Date' datatype='date' name='[ref_date]' role='dimension' type='ordinal' />
+            <column-instance column='[ref_date]' derivation='Year' name='[yr:ref_date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:geo:nk]'>
+            <groupfilter function='member' level='[none:geo:nk]' member='&quot;Canada&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:job_char:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:job_char:nk]' member='&quot;Full-time&quot;' />
+              <groupfilter function='member' level='[none:job_char:nk]' member='&quot;Part-time&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:noc_code:ok]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:noc_code:ok]' member='0' />
+              <groupfilter function='member' level='[none:noc_code:ok]' member='1' />
+              <groupfilter function='member' level='[none:noc_code:ok]' member='2' />
+              <groupfilter function='member' level='[none:noc_code:ok]' member='3' />
+              <groupfilter function='member' level='[none:noc_code:ok]' member='4' />
+              <groupfilter function='member' level='[none:noc_code:ok]' member='5' />
+              <groupfilter function='member' level='[none:noc_code:ok]' member='6' />
+              <groupfilter function='member' level='[none:noc_code:ok]' member='7' />
+              <groupfilter function='member' level='[none:noc_code:ok]' member='8' />
+              <groupfilter function='member' level='[none:noc_code:ok]' member='9' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:noc_desc:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:noc_desc:nk]' member='&quot;Business, finance and administration occupations&quot;' />
+              <groupfilter function='member' level='[none:noc_desc:nk]' member='&quot;Health occupations&quot;' />
+              <groupfilter function='member' level='[none:noc_desc:nk]' member='&quot;Legislative and senior management occupations&quot;' />
+              <groupfilter function='member' level='[none:noc_desc:nk]' member='&quot;Natural and applied sciences and related occupations&quot;' />
+              <groupfilter function='member' level='[none:noc_desc:nk]' member='&quot;Natural resources, agriculture and related production occupations&quot;' />
+              <groupfilter function='member' level='[none:noc_desc:nk]' member='&quot;Occupations in art, culture, recreation and sport&quot;' />
+              <groupfilter function='member' level='[none:noc_desc:nk]' member='&quot;Occupations in education, law and social, community and government services&quot;' />
+              <groupfilter function='member' level='[none:noc_desc:nk]' member='&quot;Occupations in manufacturing and utilities&quot;' />
+              <groupfilter function='member' level='[none:noc_desc:nk]' member='&quot;Sales and service occupations&quot;' />
+              <groupfilter function='member' level='[none:noc_desc:nk]' member='&quot;Total, all occupations&quot;' />
+              <groupfilter function='member' level='[none:noc_desc:nk]' member='&quot;Trades, transport and equipment operators and related occupations&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[yr:ref_date:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:ref_date:ok]' member='2023' />
+              <groupfilter function='member' level='[yr:ref_date:ok]' member='2024' />
+              <groupfilter function='member' level='[yr:ref_date:ok]' member='2025' />
+              <groupfilter function='member' level='[yr:ref_date:ok]' member='2026' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:geo:nk]</column>
+            <column>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:job_char:nk]</column>
+            <column>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:noc_code:ok]</column>
+            <column>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:noc_desc:nk]</column>
+            <column>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[yr:ref_date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:noc_desc:nk]' value='91' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:noc_desc:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[pcto:sum:predicted_total_vacancies:qk]</rows>
+        <cols>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:noc_desc:nk]</cols>
+      </table>
+      <simple-id uuid='{6309FCA2-447A-41E0-A453-0BAD0CF78C6E}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Predictions with Policy Data'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[sum:sentiment_score:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[:Measure Names]</field>
+            <field>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:geo:nk]</field>
+            <field>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:job_char:nk]</field>
+            <field>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:noc_code:ok]</field>
+            <field>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:noc_desc:nk]</field>
+            <field>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:predicted_total_vacancies:nk]</field>
+            <field>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[yr:ref_date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{687FB84D-0536-4AEA-B22F-4753A05133C3}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='300'>
+            <card pane-specification-id='0' param='[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:noc_desc:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:geo:nk]</field>
+            <field>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:job_char:nk]</field>
+            <field>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:noc_code:ok]</field>
+            <field>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:noc_desc:nk]</field>
+            <field>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[none:predicted_total_vacancies:nk]</field>
+            <field>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[pcto:sum:predicted_total_vacancies:ok]</field>
+            <field>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[sum:predicted_total_vacancies:ok]</field>
+            <field>[federated.1fmetnw0yxhy3016gyeza0t6rbc6].[yr:ref_date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B47CA6EB-430B-4381-A980-C9ABF1B14BC1}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Predictions with Policy Data' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
